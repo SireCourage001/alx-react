@@ -1,0 +1,19 @@
+{
+  "name": "task_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "build": "webpack --config webpack.config.js",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://SireCourage001.github.io/0x01-react_intro/",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
